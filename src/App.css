@@ -198,7 +198,7 @@ button {
     }
 
     .belowNavbar {
-        padding-top: 50px;
+        padding-top: 20px;
     }
 
     .all-cards {
@@ -215,7 +215,7 @@ button {
     }
 
     .product-card .description {
-        font-size: 4px;
+        font-size: 7px;
     }
 
     .product-card img {
@@ -242,10 +242,9 @@ button {
         padding: 2px;
         border-width: 1px;
     }
-
-
+    
     .cart-item {
-        grid-template-columns: 1fr 10fr 2fr 3fr;
+        grid-template-columns: 1fr 7fr 2fr 3fr;
         gap: 10px;
         padding-bottom: 8px;
     }
