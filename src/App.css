@@ -1,14 +1,16 @@
 :root {
-  --primary: #3f4f44;   /* forest green */
-  --secondary: #c69c6d; /* gold */
-  --bg: #f5f5f4;
-  --card: #ffffff;
-  --text: #292524;
+    --primary: #3f4f44;
+    /* forest green */
+    --secondary: #c69c6d;
+    /* gold */
+    --bg: #f5f5f4;
+    --card: #ffffff;
+    --text: #292524;
 }
 
 
 body {
-  background-color: var(--bg);
+    background-color: var(--bg);
 }
 
 .nav-bar {
@@ -40,7 +42,7 @@ body {
     border: 1px solid black;
 }
 
-.cartButton i{
+.cartButton i {
     padding-right: 5px;
 }
 
@@ -99,21 +101,21 @@ button {
     object-fit: contain;
 }
 
-.product-card .description{
+.product-card .description {
     font-size: 12px;
 }
 
 .remove-from-cart {
     background-color: rgb(142, 71, 71);
-    color: #ffffff;   
+    color: #ffffff;
     border-radius: 5px;
     padding: 5px;
     margin-top: auto;
 }
 
-.add-to-cart{
+.add-to-cart {
     background-color: rgb(114, 137, 116);
-    color: #ffffff;    
+    color: #ffffff;
     border-radius: 5px;
     padding: 5px;
     margin-top: auto;
@@ -169,7 +171,7 @@ button {
     border-radius: 5px;
 }
 
-.updationBtn{
+.updationBtn {
     display: flex;
     gap: 5px;
     align-items: center;
@@ -212,6 +214,10 @@ button {
         border-radius: 5px;
     }
 
+    .product-card .description {
+        font-size: 4px;
+    }
+
     .product-card img {
         height: 100px;
         width: 70px;
@@ -236,7 +242,7 @@ button {
         padding: 2px;
         border-width: 1px;
     }
-    
+
 
     .cart-item {
         grid-template-columns: 1fr 10fr 2fr 3fr;
@@ -327,8 +333,11 @@ button {
         border-width: 1px;
     }
 
-    .add-to-cart:hover {
-        padding: 6px;
+    .remove-from-cart {
+        font-size: 10px;
+        border-radius: 3px;
+        padding: 4px;
+        border-width: 1px;
     }
 
     .cart-item {
