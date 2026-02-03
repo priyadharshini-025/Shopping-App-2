@@ -249,7 +249,7 @@ button {
     }
 
     .cart-item {
-        grid-template-columns: 1fr 7fr 2fr 3fr;
+        grid-template-columns: 1fr 5fr 2fr 3fr 2fr;
         gap: 10px;
         padding-bottom: 8px;
     }
@@ -351,7 +351,7 @@ button {
     }
 
     .cart-item {
-        grid-template-columns: 1fr 10fr 2fr 2fr;
+        grid-template-columns: 1fr 10fr 2fr 2fr 2fr;
         gap: 10px;
         padding-bottom: 12px;
     }
