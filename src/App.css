@@ -81,10 +81,11 @@ button {
     border-radius: 10px;
     padding: 15px;
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
+    display: grid;
+    /* flex-direction: column; */
+    align-items:start;
+    
+    justify-items: center;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
 
@@ -101,8 +102,11 @@ button {
     object-fit: contain;
 }
 
+
 .product-card .description {
     font-size: 12px;
+    height: 150px;
+    overflow: hidden;
 }
 
 .remove-from-cart {
@@ -110,7 +114,7 @@ button {
     color: #ffffff;
     border-radius: 5px;
     padding: 5px;
-    margin-top: auto;
+    /* margin-top: auto; */
 }
 
 .add-to-cart {

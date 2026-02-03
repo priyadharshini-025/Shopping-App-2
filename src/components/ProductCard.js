@@ -4,8 +4,8 @@ function ProductCard({product,addToCart,removeFromCart,isInCart})
         <div className="product-card">
             {/* <img src={product.images[0]} alt={product.title || 'Product image'} /> */}
             <img src={product.image} alt={product.title || 'Product image'} />
-            <p>{product.title}</p>
-            <p><b>&#8377; {product.price}</b></p>
+            <p className="productTitle">{product.title}</p>
+            <p className="productPrice"><b>&#8377; {product.price}</b></p>
             <p className="description">{product.description}</p>
             {isInCart ?
                 <button className="remove-from-cart" onClick={() => removeFromCart(product.id)}>Remove from Cart</button> :
